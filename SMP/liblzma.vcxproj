@@ -1077,13 +1077,13 @@
       <PreprocessorDefinitions>_WIN32_WINNT=0x0502;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -1135,14 +1135,14 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>_WIN32_WINNT=0x0502;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
-      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
+      <TargetMachine>MachineARM</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
     <PostBuildEvent>
@@ -1193,14 +1193,14 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>_WIN32_WINNT=0x0502;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
-      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
+      <TargetMachine>MachineARM64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
     <PostBuildEvent>
@@ -1251,7 +1251,7 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -1259,7 +1259,7 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -1311,7 +1311,7 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -1319,8 +1319,8 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
-      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
+      <TargetMachine>MachineARM</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
     <PostBuildEvent>
@@ -1371,7 +1371,7 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -1379,8 +1379,8 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
-      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
+      <TargetMachine>MachineARM64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
     <PostBuildEvent>
@@ -1431,13 +1431,13 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>_WIN32_WINNT=0x0601;HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x64\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x64\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -1489,7 +1489,7 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <PreprocessorDefinitions>HAVE_CONFIG_H;TUKLIB_SYMBOL_PREFIX=lzma_;inline=_inline;restrict=__restrict;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x64\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <MinimalRebuild>false</MinimalRebuild>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -1497,7 +1497,7 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x64\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -2081,12 +2081,12 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -2146,13 +2146,13 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
-      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
+      <TargetMachine>MachineARM</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
     <PostBuildEvent>
@@ -2211,13 +2211,13 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
-      <TargetMachine>MachineX86</TargetMachine>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
+      <TargetMachine>MachineARM64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
     <PostBuildEvent>
@@ -2276,14 +2276,14 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x86\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x86\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -2343,14 +2343,14 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\ARM\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\ARM\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineARM</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -2410,14 +2410,14 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\ARM64\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\ARM64\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineARM64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -2477,12 +2477,12 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x64\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x64\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
@@ -2542,14 +2542,14 @@ del /f /q $(OutDir)\licenses\liblzma.txt
       <AdditionalIncludeDirectories>.\;..\src\liblzma\api;..\src\liblzma\common;..\src\liblzma\check;..\src\liblzma\lz;..\src\liblzma\rangecoder;..\src\liblzma\lzma;..\src\liblzma\delta;..\src\liblzma\simple;..\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InterproceduralOptimization>SingleFile</InterproceduralOptimization>
       <C99Support>true</C99Support>
-      <ProgramDataBaseFileName>$(OutDir)\lib\x64\$(TargetName).pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>$(OutDir)\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <CompileAsWinRT>false</CompileAsWinRT>
       <TreatSpecificWarningsAsErrors>4113;%(TreatSpecificWarningsAsErrors)</TreatSpecificWarningsAsErrors>
       <DisableSpecificWarnings>4244;4267;4028;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Lib>
-      <OutputFile>$(OutDir)\lib\x64\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)\lib\$(PlatformTarget)\$(TargetName)$(TargetExt)</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
       <SubSystem>Windows</SubSystem>
     </Lib>
